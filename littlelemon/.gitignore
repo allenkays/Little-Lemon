@@ -1,7 +1,18 @@
-# .gitignore
+# Environment & secrets
 .env
+local_settings.py
+
+# Python & Django
 __pycache__/
 *.pyc
+
+# SQLite fallback (if used)
 *.sqlite3
-/staticfiles/
-.python-version
+
+# Django media/static
+media/
+staticfiles/
+
+# SQL dumps (if present locally)
+*.sql
+*.sql.gz
