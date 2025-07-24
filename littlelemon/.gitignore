@@ -1,5 +1,5 @@
 # Environment & secrets
-.env
+# .env
 local_settings.py
 
 # Python & Django
